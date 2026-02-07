@@ -1,27 +1,14 @@
-# --- Proje Özelinde Hariç Tutulanlar ---
-# Tüm alt klasörlerdeki bin ve lib klasörlerini ve içeriklerini engeller
-**/bin/
-**/lib/
+# Klasörlerin kendisini takip et ama içeriğini yoksay
+veri_yapilari_2/bin/*
+!veri_yapilari_2/bin/.gitkeep
 
-# --- Derleme (Build) Dosyaları ---
+veri_yapilari_2/lib/*
+!veri_yapilari_2/lib/.gitkeep
+
+# Genel derleme ve sistem dosyalarını engellemeye devam et
 *.exe
 *.o
 *.obj
-*.out
-*.app
-*.log
-
-# --- IDE ve Editör Dosyaları ---
-# Visual Studio
 .vs/
-*.user
-*.suo
-*.db
-*.opendb
-
-# VS Code
 .vscode/
-
-# --- İşletim Sistemi Dosyaları ---
-Thumbs.db
 .DS_Store
