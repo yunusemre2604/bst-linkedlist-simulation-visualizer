@@ -1,0 +1,27 @@
+# --- Proje Özelinde Hariç Tutulanlar ---
+# Tüm alt klasörlerdeki bin ve lib klasörlerini ve içeriklerini engeller
+**/bin/
+**/lib/
+
+# --- Derleme (Build) Dosyaları ---
+*.exe
+*.o
+*.obj
+*.out
+*.app
+*.log
+
+# --- IDE ve Editör Dosyaları ---
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.db
+*.opendb
+
+# VS Code
+.vscode/
+
+# --- İşletim Sistemi Dosyaları ---
+Thumbs.db
+.DS_Store
